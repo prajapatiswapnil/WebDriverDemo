@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>SampleSite</title>
+</head>
+<body>
+
+	<div id="sample">
+		<h2>Contact Form</h2>
+		<p>Please click "Submit" after making your selections. Thank you.</p>
+		<form id="my-form">
+			<div id="align">
+				<input type="hidden" name="required" value="name,phone,email" /><br />
+				<input type="hidden" name="title"
+					value="Thank you for contacting Keynote Support" /><br /> <input
+					type="hidden" name="return_link_url"
+					value="https://www.keynotesupport.com/index.shtml" /> <input
+					type="hidden" name="return_link_title" value="Go to the Homepage" />
+				<label for="name1">NAME:</label><br /> <span><input
+					type="text" name="name" id="name1" class="data-entry" /></span><br />
+				<br /> <label for="tel">PHONE:</label><br /> <span><input
+					type="tel" name="phone" id="tel" class="data-entry" /></span><br />
+				<br /> <label for="email">E-MAIL ADDRESS:</label><br /> <span><input
+					type="email" name="email" id="email" class="data-entry" /></span><br />
+				<br />
+				<p>SELECT A SOFTWARE PRODUCT:</p>
+				<br /> <span class="radio"><input type="radio"
+					name="software" value="Excel" />Microsoft Excel</span><br /> <span
+					class="radio"><input type="radio" name="software"
+					value="QBP" />QuickBooks Pro</span><br /> <span class="radio"><input
+					type="radio" name="software" value="Peachtree" />Peachtree
+					Accounting</span><br /> <span class="radio"><input type="radio"
+					name="software" value="Photoshop" />Adobe Photoshop</span><br />
+				<br />
+
+				<p>WHAT IS YOUR CURRENT LEVEL?</p>
+				<br /> <span class="radio"><input type="radio" name="level"
+					value="Beginner" />Beginner</span><br /> <span class="radio"><input
+					type="radio" name="level" value="Intermediate" />Intermediate</span><br />
+				<span class="radio"><input type="radio" name="level"
+					value="Advanced" />Advanced</span><br />
+				<br /> <label for="comments3">COMMENTS:</label><br /> <span><textarea
+						name="comments" id="comments3" rows="4"></textarea></span><br />
+				<br /> <span><input type="reset" class="button"
+					value="RESET" /> <input type="submit" class="button"
+					value="SUBMIT" /></span><br />
+
+			</div>
+			<!--end div align-->
+		</form>
+	</div>
+	<!--end div sample-->
+
+</body>
+</html>
